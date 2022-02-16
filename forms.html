@@ -38,6 +38,8 @@
           type="number"
           placeholder="enter a number"
           name="num"
+          min="1"
+          max="10"
         />
       </p>
       <button type="submit">Submit</button>
@@ -79,6 +81,28 @@
           <option value="veg">Vegetarian</option>
           <option value="chick">Chicken</option>
         </select>
+      </p>
+      <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input
+          type="range"
+          id="cheese"
+          min="1"
+          max="10"
+          value="75"
+          name="cheese_level"
+        />
+      </p>
+      <p>
+        <label for="request">Any special Requests?</label>
+        <br />
+        <textarea
+          name="request"
+          id="request"
+          cols="40"
+          rows="10"
+          placeholder="Type something here"
+        ></textarea>
       </p>
       <button>Submit</button>
     </form>
