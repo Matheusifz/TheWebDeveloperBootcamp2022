@@ -4,7 +4,7 @@
  */
 
 body {
-  background-color: #1d3557;
+  background-color: #edf2f4;
 }
 button {
   font-size: 30px;
@@ -13,10 +13,20 @@ button {
 
 h1,
 h2 {
-  color: #edf2f4;
+  color: #11121a;
 }
 
 #signup {
   background-color: #1d3557;
   color: #edf2f4;
+}
+
+span {
+  color: #ef233c;
+}
+
+.tag {
+  background-color: #d90429;
+  color: #edf2f4;
+  font-size: 16px;
 }
