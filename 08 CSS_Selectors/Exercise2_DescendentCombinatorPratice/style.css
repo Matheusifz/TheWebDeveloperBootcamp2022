@@ -1,0 +1,9 @@
+nav h2 a {
+  color: teal;
+  font-size: 30px;
+}
+
+section p #dislikes {
+  color: red;
+  font-weight: bold;
+}
